@@ -1,0 +1,15 @@
+.anthem {
+    animation: stretch 20s linear;
+
+    height:100vh;
+}
+
+
+@keyframes stretch {
+    0% {
+        width: 20vw;
+    }
+    100% {
+        width:1000vw;
+    }
+}

@@ -1,0 +1,61 @@
+.container {
+    width:100vw;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items:end;
+    position:relative;
+    
+}
+
+.diaries_container {
+    cursor:pointer;
+}
+
+.diary, .translation {
+    width:auto;
+    height:95vh;
+    display:flex;
+    justify-content: center;
+    align-items:end;
+    position:relative;
+    /* background:red; */
+    /* animation: breathe 5s linear infinite; */
+    transition: opacity .5s;
+}
+
+
+.translation {
+    opacity:0;
+    display:none;
+}
+
+.target, .fly {
+    transition: filter 1s;
+}
+
+.target {
+    /* background:red; */
+}
+
+/* ??? Why is fly container so tall?? */
+.fly_container {
+    background:white;
+    position:absolute;
+    height:10px;
+    z-index:11;
+    pointer-events: none;
+    font-size: 4.5em;
+
+    transition: top 10s, left 10s;
+
+}
+
+/* ??How do I get .fly to compress with p? */
+.fly {
+    background:pink;
+}
+
+.fly_container p {
+    background:blue;
+}

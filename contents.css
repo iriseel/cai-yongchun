@@ -1,0 +1,37 @@
+body {
+    overflow:visible;
+    color:white;
+    padding: 1em;
+}
+
+.sound_btn {
+    font-size:2em;
+    position:fixed;
+    z-index:10;
+    top: 1em;
+    right: 1em;
+    cursor: pointer;
+    color:black;
+    background:white;
+}
+
+.about {
+    border: 1px solid white;
+    padding: 0 2em;
+    column-count: 6;
+    column-gap: 2em;
+    column-rule: 1px solid white; 
+    word-wrap: break-word;
+}
+
+.thumbnails {
+    margin: 2em 0;
+}
+
+.thumbnail {
+    display:inline-block;
+}
+
+img {
+    max-width:100%;
+}
