@@ -16,6 +16,11 @@ body {
 }
 
 .about {
+    width: calc(100vw / 6);
+    margin-bottom: 4em;
+}
+
+.biography {
     border: 1px solid white;
     padding: 0 2em;
     column-count: 6;

@@ -40,7 +40,7 @@
 
 /* ??? Why is fly container so tall?? */
 .fly_container {
-    background:white;
+    /* background:white; */
     position:absolute;
     height:10px;
     z-index:11;
@@ -53,9 +53,9 @@
 
 /* ??How do I get .fly to compress with p? */
 .fly {
-    background:pink;
+    /* background:pink; */
 }
 
 .fly_container p {
-    background:blue;
+    /* background:blue; */
 }

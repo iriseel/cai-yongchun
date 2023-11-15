@@ -44,7 +44,7 @@ function init() {
     }
     else {
 
-        diaryImgSrc = "imgs/8_14/IMG_3687_folder.png";
+        diaryImgSrc = "imgs/8_14/IMG_3687_threshold_diary.png";
         // diaryImgSrc = getRandomNum(propagandaImgSrcs);
         // container.style.alignItems = "center";
         // diaryDiv.style.height = "80vh";
@@ -165,7 +165,7 @@ function getClosestEdge(leftX, topY, rightX, bottomY) {
 //CREATE FLIES
 // Function to create divs at random positions and animate towards the target
 function createMovingDivs() {
-    const numDivs = 1; // Number of divs to create
+    const numDivs = 100; // Number of divs to create
 
     const fontStretchMin = .1;
     const fontStretchMax = .8;

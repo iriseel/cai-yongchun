@@ -74,7 +74,7 @@ soundBtn.addEventListener("click", () => {
 
 
 // Get the text content and split it by words
-const paragraphs = document.querySelectorAll('p');
+const paragraphs = document.querySelectorAll('.biography p');
 
 // Function to randomly stretch and compress each word
 function stretchAndCompress() {
